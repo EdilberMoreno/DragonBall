@@ -1,0 +1,35 @@
+/* Estilos generales del contenedor del navbar */
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f5f5f5; /* Color de fondo opcional */
+    border-bottom: 2px solid #000; /* Línea inferior opcional */
+}
+  
+/* Estilos del logotipo */
+.contenedor img {
+    height: 80px;
+    margin-right: 20px;
+}
+  
+/* Estilos del menú */
+.menu {
+    display: flex;
+    gap: 20px;
+}
+  
+/* Estilos de cada enlace */
+.menu a {
+    text-decoration: underline;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+}
+  
+/* Estilo para el hover */
+  .menu a:hover {
+    color: #000;
+}
+  

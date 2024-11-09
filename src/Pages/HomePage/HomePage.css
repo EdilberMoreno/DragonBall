@@ -1,0 +1,75 @@
+body {
+  background-color: #A4C3B2;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.homepage-container {
+  padding: 20px;
+  background-color: #A4C3B2;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 400px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  background-color: #fff;
+  margin: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border: 2px solid #ffcc00;
+}
+
+.titulo{
+  text-align: center;
+  font-weight: bold;
+}
+
+.card-media {
+  width: 100px;
+  height: auto;
+}
+
+.dialog-content {
+  width: 500px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  margin: 16px;
+}
+
+.dialog-image {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+.dialog-attribute {
+  font-weight: bold;
+}

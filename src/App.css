@@ -1,0 +1,24 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+  grid-template-columns: 1fr 4fr;
+}
+
+#div-header{
+  list-style-type: none;
+  display: flex;
+  background-color: rgb(237, 226, 226);    
+}
+
+#menu{
+  background-color: #171a21;
+  position:sticky;
+  top: 30px;
+}
